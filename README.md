@@ -126,7 +126,7 @@ graphrag query \
 ```
 ### Download query example file, Run
 ```Bash
-curl https://raw.githubusercontent.com/OmarSaad-png/.ignore/refs/heads/main/Example_Queries.txt -o ./ragtest/input/Example_Queries.txt
+curl https://raw.githubusercontent.com/OmarSaad-png/.ignore/refs/heads/main/Example_Queries.txt -o ./ragtest/Example_Queries.txt
 ```
 ## Prompts
 ### For optimal graph extraction and query responses prompts should be optimized for the document's domain, More focused prompts steer the model away of halucinations

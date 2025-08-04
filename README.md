@@ -20,12 +20,16 @@
 ```Bash
   mkdir -p ./ragtest/input
   ```
-  4. Get a copy of A Christmas Carol by Charles Dickens and (ألف ليله و ليله)
+  4. Get a copy of A Christmas Carol by Charles Dickens, The Chronicles of the Whispering Sands and (ألف ليله و ليله)
 ```Bash
   curl https://www.gutenberg.org/cache/epub/24022/pg24022.txt -o ./ragtest/input/En_book.txt
 
   curl https://raw.githubusercontent.com/OmarSaad-png/.ignore/refs/heads/main/%D8%A3%D9%84%D9%81%20%D9%84%D9%8A%D9%84%D9%87%20%D9%88%20%D9%84%D9%8A%D9%84%D9%87.txt -o ./ragtest/input/Ar_book.txt
   ```
+**For faster testing use "The Chronicles of the Whispering Sands" story hence it's very short other than "A Christams Carol"**
+```Bash
+  curl https://raw.githubusercontent.com/OmarSaad-png/.ignore/refs/heads/main/En_book2.txt -o ./ragtest/input/En_book2.txt
+```
   5. To initialize your workspace
 ```Bash
   graphrag init --root ./ragtest
